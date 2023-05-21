@@ -23,3 +23,25 @@ footer{
     background-color: black;
     height: auto;
 }
+
+.body{
+    font-size: 40px;
+    margin: 0;
+    background-color: #BEA628;
+}
+.container{
+    display: none;
+    flex-direction: row;
+    width: 1000px;
+    height: 1024px;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #BEA628;
+    
+}
+.h1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+ 
