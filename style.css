@@ -1,1 +1,25 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
 
+html{
+    background-image:url("images/fon.jpg")
+}
+.title{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+}
+footer{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+}
