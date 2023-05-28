@@ -5,6 +5,8 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     text-align: center;
+    padding: 10px;
+
 }
 
 html{
@@ -27,31 +29,82 @@ footer{
 .body{
     font-size: 40px;
     margin: 0;
+    background-color: #BEA628;
 }
 body{
     background-image:url("images/fon.jpg")
 }
 .container{
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 1000px;
-    height: 900px;
+    width: calc(100vw* (1000/1920));
     margin: 0 auto;
     justify-content: space-around;
     background-color: #BEA628;
-    display: flex;
-    align-items: center;
-
     
 }
-h1{
+.h1{
     display: flex;
     text-align: center;
     justify-content: space-around;
     color: white;
+}
+.tiagy{
+ margin: 50px;
+ background-color: rgb(73, 34, 34);
+border-radius: 20px;
+padding: 10px;
+}
+.mama{
+    margin: 50px;
+    background-color: rgb(73, 34, 34);
+    border-radius: 20px;
+    padding: 10px;
+}
+.jak{
+    margin: 50px;
+    background-color: rgb(73, 34, 34);
+    border-radius: 20px;
+    padding: 10px;
+}
+.train{
+    margin: 50px;
+    background-color: rgb(73, 34, 34);
+    border-radius: 20px;
+    padding: 10px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-style: italic;
+}
+a:hover{
+    color:gray;
+
+    
+}
+.botton{
+    margin: 50px;
+    background-color: rgb(73, 34, 34);
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-size: 25px;
+
+}
+.botton:hover{
+    color:gray;
 }
 div{
     color: white;
     font-size: 25px;
     padding-left: 2px;
     padding-right: 2px;
+}
+img{
+    width: 100%;
 }
