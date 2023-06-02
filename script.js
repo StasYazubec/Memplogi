@@ -1,4 +1,5 @@
-let botton=document.querySelector(".botton")
+document.addEventListener("DOMContentLoaded", () => {
+    let botton=document.querySelector(".botton")
 let hrefs=["./mempage.html","./mempage1.html","./mempage2.html","./mempage3.html","./mempage4.html"]
 
 function getRandomInt(max) {
@@ -10,3 +11,5 @@ function random_mem(){
 
 }
 botton.addEventListener("click",random_mem)
+  });
+
