@@ -1,5 +1,5 @@
 let botton=document.querySelector(".botton")
-let hrefs=["./mempage","./mempage1","./mempage2","./mempage3","./mempage4"]
+let hrefs=["./mempage.html","./mempage1.html","./mempage2.html","./mempage3.html","./mempage4.html"]
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
