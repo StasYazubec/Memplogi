@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('load', (event) => { {
     let botton=document.querySelector(".botton")
 let hrefs=["./mempage.html","./mempage1.html","./mempage2.html","./mempage3.html","./mempage4.html"]
 
